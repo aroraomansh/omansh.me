@@ -35,6 +35,14 @@
     
     <!-- End of headEnd -->
 </head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var badgeContainer = document.getElementById('__framer-badge-container');
+    if (badgeContainer) {
+      badgeContainer.parentNode.removeChild(badgeContainer);
+    }
+  });
+</script>
 <body class="framer-body-pyQ74JKGa-framer-E9MCB">
     <script async src="https://events.framer.com/script" data-fid="3cedfbc9717bc89cac3687d78633aca149b5a905115d87856a09ecf547792cbc"></script>
     <!-- Start of bodyStart -->
