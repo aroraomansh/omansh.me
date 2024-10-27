@@ -1,1 +1,1 @@
-# bit.ly/omansharora
+omansh.me
